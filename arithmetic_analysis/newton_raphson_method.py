@@ -1,6 +1,16 @@
 # Implementing Newton Raphson method in Python
 # Author: Syed Haseeb Shah (github.com/QuantumNovice)
 
+"""
+x2 = x1 - delta x, d x = d y / f'(x)
+
+充分运用了python的eval的函数，重新计算方程的结果，diff的求导功能也很牛逼。
+1. sympy.diff uses diff to calculate the derivative
+2. Use decimal.Decimal to increase the accuracy
+3. eval(str) to eval the str as the expression, perfect
+
+"""
+
 from sympy import diff
 from decimal import Decimal
 

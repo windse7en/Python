@@ -1,6 +1,9 @@
 """Lower-Upper (LU) Decomposition."""
 
 # lower–upper (LU) decomposition - https://en.wikipedia.org/wiki/LU_decomposition
+"""LU decomposition
+解决矩阵的问题，L是对角线是1的矩阵，之后按这个方向一行一行来计算值，填入分别的矩阵。
+"""
 import numpy
 
 

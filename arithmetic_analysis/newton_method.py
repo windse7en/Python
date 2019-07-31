@@ -1,4 +1,6 @@
-"""Newton's Method."""
+"""Newton's Method.
+按导数的方向变化，直到最后结果满意，这个需要f是连续。
+"""
 
 # Newton's Method - https://en.wikipedia.org/wiki/Newton%27s_method
 
